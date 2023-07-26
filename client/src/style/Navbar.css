@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 138px;
+    color: #fff;
+    background: linear-gradient(90deg, #00648c 65%, #0a789c 100%)
+        /* Add more styles as needed */
+}
+
+.logo img {
+    width: 196px;
+    height: 59px;
+    flex-shrink: 0;
+    /* Add more styles as needed */
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+
+    /* Add more styles as needed */
+}
+
+.buttons button {
+    padding: 8px 16px;
+    background-color: #009CFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* Add more styles as needed */
+}
+
+.secondaryBtn {
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 8px 16px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.country {
+    justify-content: space-between;
+    /* Add styles for country selection on the right side */
+}
+
+.loc {
+    margin-left: 20px;
+}
+
+.h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    /* Equivalent to 32px top and bottom margin */
+}
+
+.h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    /* Equivalent to 24px top and bottom margin */
+}
+
+.h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+    /* Equivalent to 18.72px top and bottom margin */
+}
+
+.h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+    /* Equivalent to 16px top and bottom margin */
+}
+
+.h5 {
+    font-size: 0.83em;
+    margin: 1.5em 0;
+    /* Equivalent to 13.28px top and bottom margin */
+}
