@@ -1,0 +1,78 @@
+.form-reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.reset {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    color: white;
+}
+  
+  .center-form-wd-tp {
+    text-align: left; /* Align text to the left */
+    background-color: #00426C;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-center-diff-pad {
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 40px 100px;
+  }
+
+  .container-center-diff-pad h1,p{
+    color: white;
+  }
+  
+  .reset label{
+    margin-top: 30px;
+  }
+
+  .reset input {
+    height: 40px;
+    max-width: 100%; /* Set maximum width to fit the container */
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 10px;
+    color: azure;
+    border: 1px solid var(--gray-500, #6783A0);
+    background: var(--gray-800, #30445B);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      position: relative;
+      height: auto;
+    }
+  }
+  
+  .reset a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #009CFF; /* Link color */
+  }
+  .reset button {
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #009CFF;
+    margin-top: 40px;
+    color: aliceblue;
+    font-weight: 600;
+}

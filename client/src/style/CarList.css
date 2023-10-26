@@ -1,0 +1,53 @@
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-info {
+    margin: 10px 0;
+  }
+  
+  .starting-bid {
+    font-weight: bold;
+    font-size: 16px;
+    color: #344054;
+  }
+  
+  .product-actions {
+    margin: 20px 0;
+  }
+  
+.product-actions button {
+    background: #009CFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .product-actions button:hover {
+    background: #0079BB;
+  }
+  

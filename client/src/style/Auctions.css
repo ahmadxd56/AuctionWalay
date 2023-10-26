@@ -1,0 +1,22 @@
+.auctions-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px 150px;
+  }
+  
+  .filter {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .cars-list {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+  }
+  

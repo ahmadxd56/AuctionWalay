@@ -1,0 +1,73 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0090ED;
+    color: white;
+    padding: 100px 200px;
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+.logo-footer {
+    width: 50%;
+    text-align: center;
+}
+
+.star {
+    width: 30%;
+}
+
+.description {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.heading-ql {
+    font-size: 30px;
+    margin: 0;
+    border-bottom: 2px solid transparent; /* Transparent underline */
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-bottom: 20%;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 40%;
+}
+
+.links li {
+    margin-bottom: 8px;
+    font-size: large;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.heading-ql:after {
+    content: '';
+    display: block;
+    background-image: url('https://i.ibb.co/sWyRpdK/double-line.png'); 
+    background-size: 100% 2px; 
+    height: 2px; 
+}
+.copyright {
+    background-color: #1EA7FF;
+    height: 45px;
+    text-align: center;
+    color: white;
+    line-height: 45px; /* Vertically center text */
+    font-size: 14px;
+}

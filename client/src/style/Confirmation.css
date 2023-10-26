@@ -1,0 +1,26 @@
+.container-center-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-center {
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-btn {
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #009CFF;
+    color: aliceblue;
+    font-weight: 600;
+}

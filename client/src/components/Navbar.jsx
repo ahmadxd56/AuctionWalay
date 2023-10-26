@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="buttons">
                 <Link to='/'><button>HOW IT WORKS</button></Link>
                 <Link to='/sell-now' className='secondaryBtn'>Sell Now</Link>
-                <Link to='/buy-now' className='secondaryBtn'>Buy Now</Link>
+                <Link to='/auctions' className='secondaryBtn'>Buy Now</Link>
                 <Link to='/sign-up' className='secondaryBtn'>Sign Up</Link>
                 <Link to='/sign-in' className='secondaryBtn'>Sign In</Link>
             </div>
