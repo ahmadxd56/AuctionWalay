@@ -105,3 +105,28 @@ def search_cars(request):
         return render(request, 'search_results.html', {'car_list': car_list})
 
     return render(request, 'search_results.html', {})  # Return an empty response for other request methods
+
+
+
+
+def get_user_from_token(request):
+
+    print(request.headers)
+    token_object = request.headers.get('Authorization')
+    token = token_object.split(' ')[-1]
+    print("Token:{}".format(token))
+    try:
+        print("Checking if user logged in")
+        user = Token.objects.get(key=token).user
+        id = Token.objects.get(key=token).user_id
+        user_object = User.objects.get(email=user)
+
+        print("Welcome:{}".format(user))
+        print("User ID:{}".format(id))
+        print("User object:{}".format(user_object))
+        return user_object
+    except:
+        print("User is not authenticated")
+        return Response("NeedLogin")
+
+
