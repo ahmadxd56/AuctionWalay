@@ -62,8 +62,8 @@
 }
 
 .login-form input {
-    height: 40px;
-    width: 80%;
+    height: 20px;
+    width: 100%;
     padding-left: 10px;
     border-radius: 8px;
     color: azure;
