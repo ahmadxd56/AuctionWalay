@@ -84,3 +84,24 @@ def logoutUser(request):
         return Response("False")
 
 
+def search_cars(request):
+    if request.method == 'GET':
+        query = request.GET.get('search_query', '')
+
+        search_filter = Q(name__icontains=query) | Q(model__icontains=query) | Q(mileage__icontains=query)
+
+        matching_cars = Car.objects.filter(search_filter)
+
+        car_list = []
+
+        for car in matching_cars:
+            car_data = {
+                'name': car.name,
+                'model': car.model,
+                'mileage': car.mileage,
+            }
+            car_list.append(car_data)
+        #route to react
+        return render(request, 'search_results.html', {'car_list': car_list})
+
+    return render(request, 'search_results.html', {})  # Return an empty response for other request methods
