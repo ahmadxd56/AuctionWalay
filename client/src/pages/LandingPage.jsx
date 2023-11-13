@@ -12,8 +12,8 @@ const LandingPage = () => {
                 <div className="background-image" >
                     <p>Pakistan’s First Ever Platform where you Can Buy or Sale your Vehicles in Online Auctions.</p>
                     <div className="containerbtn">
-                        <Link to='/'><button className='btn1'>SELL NOW</button></Link>
-                        <Link to='/'><button className='btn2'>BUY NOW</button></Link>
+                        <Link to='/sell-now'><button className='btn1'>SELL NOW</button></Link>
+                        <Link to='/auctions'><button className='btn2'>BUY NOW</button></Link>
                     </div>
                 </div>
             </div>
@@ -79,12 +79,12 @@ const LandingPage = () => {
             </div>
         </div>
         <div className="containerbtn">
-                    <Link to='/buy-now'><button className='btn1'>START BIDDING</button></Link>
+                    <Link to='/auctions'><button className='btn1'>START BIDDING</button></Link>
                     <Link to='/sell-now'><button className='btn2'>START AUCTIONING</button></Link>
         </div>
         {/* search bar component to be added */}
             <div class="section-heading">
-                 <h1>Recent <span>Auctions</span></h1>
+                 {/* <h1>Recent <span>Auctions</span></h1> */}
             </div>
         <div className='sec3'>
 

@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
         <footer className="footer">
             <div className="column">
-                <img src={Logo} alt="Logo" className="logo-footer" />
+                <img src={Logo} alt="Logo" className="logo-footer" style={{ display: 'inline-block', margin: '0 auto' }}/>
                 <p className="description">Auctionwalay is a user-friendly online platform that revolutionizes the car auctioning experience. With its intuitive interface, real-time updates, and accessible features, Auctionwalay makes it effortless for users to participate and engage in exciting bidding opportunities.</p>
             </div>
             <div className="column">
@@ -23,9 +23,10 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="column">
-                <img src={Star} alt="Star" className="star" />
-                <p className="rating">5 out of 5 by Excise Punjab</p>
+            <img src={Star} alt="Star" className="star" style={{ display: 'inline-block', margin: '0 auto' }} />
+            <p className="rating">5 out of 5 by Excise Punjab</p>
             </div>
+
         </footer>
             <Copyright />
         </div>
